@@ -1,0 +1,50 @@
+{
+  "orig": {
+    "transfer ROC mean": 0.4581405936422402,
+    "transfer ROC sd": 0.03807305663916638,
+    "transfer ROC min": 0.4134795112082808,
+    "transfer ROC max": 0.5127251156409922,
+    "transfer ROC below 0.5 (n seeds)": 7,
+    "transfer MCC mean": -0.1999322729754871,
+    "transfer MCC sd": 0.11550846176369335,
+    "transfer MCC negative (n seeds)": 10,
+    "within ROC mean": 0.8135201096475398,
+    "within MCC mean": 0.48510008346760375
+  },
+  "A": {
+    "transfer ROC mean": 0.5737853235478222,
+    "transfer ROC sd": 0.0006233473370575311,
+    "transfer ROC min": 0.5725255146011557,
+    "transfer ROC max": 0.5745380357814246,
+    "transfer ROC below 0.5 (n seeds)": 0,
+    "transfer MCC mean": 0.359230661473652,
+    "transfer MCC sd": 0.006412484968142997,
+    "transfer MCC negative (n seeds)": 0,
+    "within ROC mean": 0.8135231121172858,
+    "within MCC mean": 0.48510008346760375
+  },
+  "B": {
+    "transfer ROC mean": 0.6730358348478297,
+    "transfer ROC sd": 0.019302769540148958,
+    "transfer ROC min": 0.6444018873496968,
+    "transfer ROC max": 0.7037093618552555,
+    "transfer ROC below 0.5 (n seeds)": 0,
+    "transfer MCC mean": 0.28999903986905895,
+    "transfer MCC sd": 0.10592397140260933,
+    "transfer MCC negative (n seeds)": 0,
+    "within ROC mean": 0.8135231121172858,
+    "within MCC mean": 0.48510008346760375
+  },
+  "fixed42_A": {
+    "TPR": 0.2678375411635565,
+    "FPR": 0.0209366391184573,
+    "TP": 1220,
+    "FP": 114,
+    "FN": 3335,
+    "TN": 5331,
+    "precision@0.01": 0.11443286662005218,
+    "FA-per-detection@0.01": 7.738748137108793,
+    "precision@0.0005": 0.006358888937293623,
+    "FA-per-detection@0.0005": 156.26017703111597
+  }
+}

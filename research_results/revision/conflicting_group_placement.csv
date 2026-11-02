@@ -1,0 +1,3 @@
+Partition,Rows,Conflicting rows,Conflicting groups,Share of partition (%)
+train,8898,293,53,3.2928748033265904
+test,2157,64,11,2.96708391284191

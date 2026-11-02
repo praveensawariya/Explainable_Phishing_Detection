@@ -1,0 +1,7 @@
+Model,Candidates,Best CV average precision,Best parameters
+Logistic Regression,8,0.9732221380120276,"{'model__C': np.float64(0.9846738873614566), 'model__class_weight': None}"
+Decision Tree,8,0.9647222269174524,"{'model__class_weight': 'balanced', 'model__max_depth': 8, 'model__min_samples_leaf': 7, 'model__min_samples_split': 12}"
+Random Forest,8,0.9879842804145655,"{'model__class_weight': 'balanced_subsample', 'model__max_depth': 24, 'model__max_features': 'log2', 'model__min_samples_leaf': 2, 'model__n_estimators': 150}"
+Extra Trees,8,0.9887477437485517,"{'model__class_weight': 'balanced', 'model__max_depth': 24, 'model__max_features': 'log2', 'model__min_samples_leaf': 2, 'model__n_estimators': 150}"
+Hist Gradient Boosting,8,0.9898097163798658,"{'model__l2_regularization': np.float64(0.024400607090817518), 'model__learning_rate': np.float64(0.05582937274905742), 'model__max_iter': 250, 'model__max_leaf_nodes': 63}"
+Gradient Boosting,8,0.9863993733444505,"{'model__learning_rate': np.float64(0.18661212048851336), 'model__max_depth': 2, 'model__min_samples_leaf': 6, 'model__n_estimators': 150}"

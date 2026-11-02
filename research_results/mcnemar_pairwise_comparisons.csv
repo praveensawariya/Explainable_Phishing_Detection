@@ -1,0 +1,7 @@
+Model A,Model B,A correct/B wrong,A wrong/B correct,McNemar exact p,Holm-adjusted p
+Logistic Regression,Decision Tree,102,80,0.11931902228044217,0.23863804456088433
+Logistic Regression,Random Forest,41,87,5.877404617853744e-05,0.0001763221385356123
+Logistic Regression,Extra Trees,40,90,1.3715068445175432e-05,5.486027378070173e-05
+Decision Tree,Random Forest,29,97,9.244792163007083e-10,4.622396081503541e-09
+Decision Tree,Extra Trees,33,105,6.093645485136748e-10,3.6561872910820487e-09
+Random Forest,Extra Trees,7,11,0.480682373046875,0.480682373046875

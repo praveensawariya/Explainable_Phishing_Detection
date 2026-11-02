@@ -1,0 +1,2 @@
+Mean pairwise Spearman rho,SD pairwise Spearman rho,Mean top-k Jaccard,SD top-k Jaccard,Top-k,Reference sample size
+0.9903448275862068,0.0025692835871727604,0.890909090909091,0.09389050536260402,10,300

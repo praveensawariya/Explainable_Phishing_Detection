@@ -1,0 +1,37 @@
+{
+  "seeds": [
+    42,
+    7,
+    11,
+    23,
+    101,
+    202,
+    303,
+    404,
+    505,
+    606
+  ],
+  "outer_folds_evaluated_for_sensitivity": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "conflicting_groups_excluded": 64,
+  "rows_after_excluding_conflicts": 10698,
+  "cost_ratio_fn_to_fp": [
+    10.0,
+    1.0
+  ],
+  "threshold_chosen_on_oof_training": 0.24,
+  "paired_test": "group-level sign-flip permutation test, 20000 permutations, Holm correction",
+  "phreshphish_test_sample_n": 10000,
+  "phreshphish_train_sample_n": 20000,
+  "expanded_search_run": false,
+  "python_version": "3.13.18",
+  "sklearn_version": "1.6.1",
+  "shap_version": "0.54.1",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "cpu_count": 2
+}

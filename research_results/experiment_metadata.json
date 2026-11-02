@@ -1,0 +1,51 @@
+{
+  "dataset": "UCI Phishing Websites (UCI repository ID 327)",
+  "target_mapping": {
+    "0": "Legitimate",
+    "1": "Phishing"
+  },
+  "records_retained": 11055,
+  "unique_feature_vectors": 5785,
+  "feature_group_overlap_train_test": 0,
+  "number_of_features": 30,
+  "training_records": 8898,
+  "test_records": 2157,
+  "test_size": 0.2,
+  "random_state": 42,
+  "cross_validation": "5-fold StratifiedGroupKFold",
+  "models": [
+    "Logistic Regression",
+    "Decision Tree",
+    "Random Forest",
+    "Extra Trees"
+  ],
+  "tuned_models": [
+    "Logistic Regression",
+    "Decision Tree",
+    "Random Forest",
+    "Extra Trees",
+    "Hist Gradient Boosting",
+    "Gradient Boosting"
+  ],
+  "randomized_search_iterations_per_model": 8,
+  "external_dataset": "PhreshPhish test split; URL-only sample",
+  "external_sample_n": 10000,
+  "external_feature_subset": [
+    "having_ip_address",
+    "url_length",
+    "shortining_service",
+    "having_at_symbol",
+    "double_slash_redirecting",
+    "prefix_suffix",
+    "having_sub_domain",
+    "https_token"
+  ],
+  "mean_shap_rank_spearman": 0.9903448275862068,
+  "mean_shap_topk_jaccard": 0.890909090909091,
+  "shap_model_selected_by_training_cv_f1": "Extra Trees",
+  "python_version": "3.13.18",
+  "sklearn_version": "1.6.1",
+  "shap_version": "0.54.1",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "cpu_count": 2
+}

@@ -1,0 +1,5 @@
+Model,Brier score
+Logistic Regression,0.048051502167511785
+Decision Tree,0.059519771647937036
+Random Forest,0.033376762422158555
+Extra Trees,0.031921130056292706
