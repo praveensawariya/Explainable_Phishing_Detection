@@ -1,4 +1,4 @@
-# Results archive — Leakage-Aware Evaluation of Explainable and Computationally Efficient Phishing Website Detection Models with Cross-Source Transfer Testing
+# Results archive — Leakage-Aware Evaluation of Explainable Phishing Website Detection Models with Cross-Source Transfer Testing
 
 Authors: Dhrupa Mistry (corresponding author, dhrupamistry512@gmail.com) and Praveen Sawariya.
 Repository: https://github.com/praveensawariya/Explainable_Phishing_Detection
